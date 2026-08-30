@@ -1,5 +1,6 @@
 name: CI Pipeline
 
+# Baseline run retained the supplied action versions before the Node 24 update.
 on:
   # Manual trigger for the workflow
   workflow_dispatch:
