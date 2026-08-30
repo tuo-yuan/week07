@@ -150,3 +150,5 @@ The CI pipeline is complete when all tests pass and all required Docker images a
 ## 9. Delete All Resources
 
 Delete all Azure resources created for this example after completing the practical.
+
+> The CI workflow is stored in .github/workflows/ci.yml and runs for updates to main.
