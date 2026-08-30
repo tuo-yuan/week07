@@ -1,7 +1,7 @@
 name: CI Pipeline
 
 # Run CI for each update to main, with a manual option for verification.
-# JavaScript actions use Node 24-compatible major versions
+# Keep JavaScript actions on Node 24-compatible majors to avoid deprecated Node 20 runners.
 on:
   push:
     branches:
